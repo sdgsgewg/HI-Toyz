@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    min-height: 100vh;
+}
+
+main{
+    font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+header{
+    max-width: 100%;
+    height: fit-content;
+    background: #ffffff;
+    border-style: groove;
+    padding: 5px 8% 5px 8%;
+    display: flex;
+    font-weight: bolder;
+}
+
+header .logo{
+    width: 150px;
+    height: fit-content;
+    margin-left: 0%;
+    text-decoration: none;
+}
+
+header .logo img{
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+}
+
+header .navbar{
+    margin-right: 0%;
+}
+
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a{
+    font-size: x-large;
+    padding: 15px;
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+
+#menu{
+    display: none;
+}
+
+header label{
+    font-size: x-large;
+    color: #062448;
+    cursor: pointer;
+    display: none;
+}
+
+/* FOOTER */
+.footer{
+    position: sticky;
+    top: 100%;
+    color: white;
+    background-color: rgb(14, 20, 32);
+    max-width: 100%;
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Container{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+}
+
+.store{
+    width: 50%;
+    height: fit-content;
+    margin-right: 10%;
+    text-align: left;
+}
+
+.store img{
+    max-width: 40%;
+    height: auto;
+}
+
+.contact{
+    width: 40%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 0%;
+    text-align: left;
+}
+
+.contact img{
+    max-width: 50%;
+    height: auto;
+}
+
+.personal{
+    display: flex;
+}
+
+.personal img{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.personal p{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.follow{
+    width: 80%;
+    height: fit-content;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.follow img{
+    max-width: 10%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    /* HEADER */
+    header{
+        max-width: 100%;
+        height: fit-content;
+        background: #ffffff;
+        padding: 5px 8% 5px 8%;
+        display: flex;
+    }
+
+    header .logo{
+        width: 140px;
+        height: fit-content;
+    }
+
+    header label{
+        display: initial;
+        margin-right: 0%;
+        max-width: 45px;
+    }
+
+    header label img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 63px; left: 0; right: 0;
+        background: #ffffff;
+        border: 1px solid black;
+        display: none;
+    }
+
+    header .navbar ul{
+        padding-left: 5.5%;
+    }
+
+    header .navbar ul li{
+        width: 100%;
+        position: relative;
+    }
+
+    header .navbar ul li a{
+        font-size: 20px;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    
+    .Container{
+        width: 80%;
+        height: fit-content;
+        display: flex;
+    }
+
+    /* FOOTER */
+    .footer{
+        max-width: 100%;
+        height: fit-content;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 2.2vmax;
+    }
+
+    .store{
+        width: 50%;
+        height: fit-content;
+        margin-right: 10%;
+        text-align: left;
+    }
+
+    .store img{
+        max-width: 20%;
+        height: auto;
+    }
+
+    .contact{
+        width: 40%;
+        height: fit-content;
+        margin: auto;
+        margin-top: 0%;
+        text-align: left;
+    }
+
+    .contact img{
+        max-width: 25%;
+        height: auto;
+    }
+
+    .follow{
+        width: 80%;
+        height: fit-content;
+        margin-top: 50px;
+        text-align: left;
+    }
+
+    .follow img{
+        max-width: 8%;
+        height: auto;
+    }
+}
+
+/* Mobile Phone */
+@media screen and (max-width: 500px) {
+    /* HEADER */
+    header{
+        max-width: 100%;
+        height: fit-content;
+        background: #ffffff;
+        padding: 5px 5% 5px 5%;
+        display: flex;
+    }
+
+    header .logo{
+        width: 120px;
+        height: fit-content;
+    }
+
+    header label{
+        display: initial;
+        margin-right: 0%;
+        max-width: 40px;
+    }
+
+    header label img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 58px; left: 0; right: 0;
+        background: #ffffff;
+        border: 1px solid black;
+        display: none;
+    }
+
+    header .navbar ul{
+        padding-left: 2.8%;
+    }
+
+    header .navbar ul li{
+        width: 100%;
+        position: relative;
+    }
+
+    header .navbar ul li a{
+        font-size: 20px;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .Container{
+            width: 80%;
+            height: fit-content;
+            display: grid;
+        }
+
+    /* FOOTER */
+    .footer{
+        max-width: 100%;
+        height: fit-content;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 2vmax;
+    }
+
+    .store{
+        width: 100%;
+        height: fit-content;
+        margin: 0%;
+        text-align: left;
+    }
+
+    .store img{
+        max-width: 10%;
+        height: auto;
+    }
+
+    .contact{
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .contact img{
+        max-width: 10%;
+        height: auto;
+    }
+
+    .follow{
+        width: 80%;
+        height: fit-content;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .follow img{
+        max-width: 10%;
+        height: auto;
+    }
+}

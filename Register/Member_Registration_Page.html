@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI-Toyz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<link rel="stylesheet" href="/Header and Footer_CSS.css">
+<link rel="stylesheet" href="Register_CSS.css">
+
+<body>
+    <header>
+        <a href="/Home/Home_Page.html" class = "logo">
+            <img src="/logo.png" alt="">
+        </a>
+
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="/menu bar.png" alt="">
+        </label>
+
+        <nav class = "navbar">
+            <ul>
+                <li><a href="/Home/Home_Page.html">Home</a></li>
+                <li><a href="/Gallery/Gallery_Page.html">Gallery</a></li>
+                <li><a href="/Product/Product_Page.html">Product</a></li>
+                <li><a href="/Event/Event_Page.html">Event</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class = "container" id = "blur">
+            <div class = "box">
+                <div class = "header">
+                    <h2>Member Regsitration</h2>
+                </div>
+                <form class="form" id="form">
+
+                    <div class = "data">
+                        <label>Username</label>
+                        <input type="text" 
+                        placeholder="Input your username" id="username">
+                        <i class = "fa fa-check-circle"></i>
+                        <i class = "fa fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class = "data">
+                        <label>Date of Birth</label>
+                        <input type="date" id="date">
+                        <i class = "fa fa-check-circle"></i>
+                        <i class = "fa fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class = "data">
+                        <label>Email</label>
+                        <input type="text" 
+                        placeholder="Input your email" id="email">
+                        <i class = "fa fa-check-circle"></i>
+                        <i class = "fa fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class = "data">
+                        <label>Password</label>
+                        <input type="password" 
+                        placeholder="Input password" id="password1">
+                        <span class = "eyeicon" id = "eye1">
+                            <i class = "fa fa-eye" id="show1"></i>
+                            <i class = "fa fa-eye-slash" id="hide1"></i>
+                        </span>
+                        <i class = "fa fa-check-circle"></i>
+                        <i class = "fa fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class = "data">
+                        <label>Confirm Password</label>
+                        <input type="password" 
+                        placeholder="Input password" id="password2">
+                        <span class = "eyeicon" id = "eye2">
+                            <i class = "fa fa-eye" id="show2"></i>
+                            <i class = "fa fa-eye-slash" id="hide2"></i>
+                        </span>
+                        <i class = "fa fa-check-circle"></i>
+                        <i class = "fa fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class = "data">
+                        <div id = 'tandc'>
+                            <input type="checkbox" id = "tick">
+                            <label>I agree with all Terms and Conditions and Privacy Policy</label>
+                        </div>
+                        <small>Please press this field to complete your registration</small>
+                    </div>
+
+                    <button id = "submit">Register</button>
+
+                </form>
+            </div>
+ 
+        </div>
+
+        <div class = "popup" id = "pop">
+            <img src="tick.png">
+            <h2>Thank You!</h2>
+            <p>Your account has been registered successfully</p>
+            <p>Press the button below to return to home page</p>
+            <button id = "done"> <a href="/Home/Home_Page.html">CONTINUE</a> </button>
+        </div>
+
+        <script src="Register_Submit.js"></script>
+
+    </main>
+
+    <footer class = "footer">
+        <div class = "Container">
+
+            <div class = "store">
+                <h2>Our Store</h2>
+                <div class = "personal">
+                    <img src="/location.png" alt="">
+                    <p>
+                        Jl. Lingkar Barat Ruko Victoria
+                        Lane No. 12
+                    </p>    
+                </div>
+                <p>Business Hours : </p>
+                <p>Mon-Fri (10am-10pm)</p>
+                <p>Sat-Sun (10am-11pm)</p>
+            </div>
+
+            <div class = "contact">
+                <h2>Contact Us</h2>
+
+                <div class = "personal">
+                    <img src="/email.png" alt="">
+                    <p>hi.toyz@gmail.com</p>
+                </div>
+                
+                <div class = "personal">
+                    <img src="/whatsapp.png" alt="">
+                    <p>+6281234567890</p>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class = "follow">
+            <h2>Follow Us</h2>
+            <img src="/facebook.png" alt="">
+            <img src="/instagram.png" alt="">
+            <img src="/tiktok.png" alt="">
+            <img src="/youtube.png" alt="">
+            <img src="/twitter.png" alt="">
+        </div>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,448 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+main{
+    max-width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.overview{
+    max-width: 75%;
+    height: fit-content;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.image{
+    width: 50%;
+    height: fit-content;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+.infos{
+    max-width: 45%;
+    height: fit-content;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.infos hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rating{
+    display: flex;
+}
+
+.rating img{
+    max-width: 130px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.rating p{
+    margin: 0px;
+}
+
+.infos button{
+    font-family: "Poppins", sans-serif;
+    display: block;
+    border: none;
+    border-radius: 50px;
+    background-color: #003452;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container{
+    background-color: rgb(186, 228, 252);
+    max-width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.description{
+    max-width: 80%;
+    height: fit-content;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.description h2{
+    width: 30%;
+    height: fit-content;
+    margin: 0%;
+}
+
+.detail{
+    width: 70%;
+    height: fit-content;
+    margin: 0%;
+}
+
+.detail ul{
+    max-width: 100%;
+    height: fit-content;
+    list-style-type: disc;
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+}
+
+.detail li{
+    max-width: 97%;
+    height: fit-content;
+    margin-left: 25px;
+    text-align: justify;
+}
+
+.review{
+    max-width: 80%;
+    height: fit-content;
+}
+
+.title{
+    display: flex;
+}
+
+.title h2{
+    margin-left: 0px;
+}
+
+.title button{
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 50px;
+    background-color: #003452;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    padding: 10px;
+    margin-right: 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box{
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 30px;
+}
+
+.informations{
+    width: 30%;
+    margin: 0%;
+    height: fit-content;
+}
+
+.customer{
+    width: 70px;
+    height: auto;
+}
+
+.ratings{
+    width: 140px;
+    height: auto;
+}
+
+.comments{
+    width: 70%;
+    height: fit-content;
+    margin: 0%;
+}
+
+.comments p{
+    margin-top: 1%;
+}
+
+/* Tablet */
+@media screen and (max-width: 850px){
+    main{
+        max-width: 100%;
+        height: fit-content;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    
+    .overview{
+        max-width: 70%;
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        display: block;
+    }
+    
+    .image{
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .image img{
+        width: 350px;
+        height: auto;
+    }
+    
+    .infos{
+        max-width: 100%;
+        height: fit-content;
+        text-align: left;
+        margin: auto;
+    }
+    
+    .infos hr{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .rating img{
+        max-width: 120px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    
+    .rating p{
+        margin: auto;
+        margin-left: 0%;
+    }
+    
+    .infos button{
+        font-size: 18px;
+        width: 200px;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    
+    .container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: justify;
+    }
+    
+    .description{
+        max-width: 80%;
+        height: fit-content;
+        margin-bottom: 80px;
+        display: grid;
+    }
+    
+    .description h2{
+        width: 100%;
+        height: fit-content;
+        margin: 0%;
+    }
+    
+    .detail{
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
+    }
+    
+    .detail li{
+        max-width: 96%;
+        height: fit-content;
+        margin-left: 20px;
+        text-align: justify;
+    }
+    
+    .review{
+        max-width: 80%;
+        height: fit-content;
+    }
+    
+    .title button{
+        font-size: 18px;
+        width: 150px;
+        padding: 8px;
+    }
+    
+    .box{
+        max-width: 100%;
+        height: fit-content;
+        display: flex;
+        margin-top: 45px;
+    }
+    
+    .informations{
+        width: 30%;
+        height: fit-content;
+        margin: 0%;
+        margin-right: 40px;
+        text-align: left;
+    }
+    
+    .customer{
+        max-width: 60px;
+        height: auto;
+    }
+    
+    .ratings{
+        max-width: 130px;
+        height: auto;
+    }
+    
+    .comments{
+        width: 70%;
+        height: fit-content;
+        margin: 0%;
+    }
+    
+    .comments p{
+        margin-top: 1%;
+    }
+}
+
+/* Mobile Phone */
+@media screen and (max-width: 580px){
+    main{
+        max-width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    .overview{
+        max-width: 80%;
+        height: fit-content;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+        display: block;
+    }
+    
+    .image{
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .image img{
+        width: 220px;
+        height: auto;
+    }
+    
+    .infos hr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .rating img{
+        max-width: 118px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    
+    .rating p{
+        margin: auto;
+        margin-left: 0%;
+    }
+    
+    .infos button{
+        font-size: 16px;
+        width: 120px;
+        padding: 8px;
+        margin-top: 30px;
+    }
+    
+    .container{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: justify;
+    }
+    
+    .description{
+        max-width: 80%;
+        height: fit-content;
+        margin-bottom: 80px;
+        display: grid;
+    }
+    
+    .description h2{
+        width: 100%;
+        height: fit-content;
+        margin: 0%;
+    }
+    
+    .detail{
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
+    }
+    
+    .detail li{
+        max-width: 96%;
+        height: fit-content;
+        margin-left: 20px;
+        text-align: justify;
+    }
+    
+    .review{
+        max-width: 80%;
+        height: fit-content;
+    }
+
+    .title{
+        display: grid;
+    }
+    
+    .title button{
+        font-size: 16px;
+        width: 120px;
+        padding: 7px;
+        margin: 0%;
+        margin-top: 20px;
+    }
+    
+    .box{
+        max-width: 100%;
+        height: fit-content;
+        display: grid;
+        margin-top: 30px;
+    }
+    
+    .informations{
+        width: 100%;
+        height: fit-content;
+        margin: 0%;
+        text-align: left;
+    }
+    
+    .customer{
+        max-width: 60px;
+        height: auto;
+    }
+    
+    .ratings{
+        max-width: 150px;
+        height: auto;
+    }
+    
+    .comments{
+        width: 100%;
+        height: fit-content;
+        margin: 0%;
+        margin-top: 10px;
+    }
+    
+    .comments p{
+        margin-top: 1%;
+    }
+}

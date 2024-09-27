@@ -1,0 +1,422 @@
+/* # -> Selector ID = cuma sekali*/
+/* . -> selector class = bisa digunakan berkali-kali*/
+*{
+    margin:auto;
+    padding: auto;
+}
+
+/* Desktop */
+main{
+    max-width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.container{
+    background-color: rgb(186, 228, 252);
+    max-width: 100%;
+    height: fit-content;
+}
+
+/* About Us */
+#abt{
+    background-image: url(about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+.about{
+    max-width: 75%;
+    height: fit-content;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: justify;
+    display: flex;
+}
+
+.text{
+    max-width: 55%;
+    height: fit-content;
+    margin-left: 0%;
+}
+
+.text h3{
+    font-size: 27px;
+}
+
+.photo{
+    max-width: 40%;
+    height: fit-content;
+    margin-right: 0%;
+}
+
+.photo img{
+    width: 100%;
+    height: auto;
+}
+
+/* In Demand Items */
+#Items{
+    background-image: url(Items.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title{
+    width: 80%;
+    height: fit-content;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+}
+
+.contain {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin-top: 30px;
+    background-color: rgb(186, 228, 252);
+    border-radius: 5px;
+    padding: 25px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-padding: 30px;
+}
+
+.item{
+    display: flex;
+    flex: 0 0 10%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-radius: 5px;
+    background: #fff;
+    scroll-snap-align: start;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.item a{
+    color: black;
+    text-decoration: none;
+    margin-top: 0%;
+}
+
+.item img{
+    width: 240px;
+    height: 240px;
+    margin-bottom: 25px;
+}
+
+/* Member */
+.member{
+    background-color: rgb(186, 228, 252);
+    max-width: 80%;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.member p{
+    width: 80%;
+    height: fit-content;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.member button{
+    font-family: "Poppins", sans-serif;
+    background-color: #003452;
+    border: 2px solid #003452;
+    border-radius: 50px;
+    width: 15%;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.member button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+  
+  @media screen and (max-width: 900px){
+    #Items{
+        margin-top: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .title{
+        width: 80%;
+    }
+    
+    .contain{
+        gap: 20px;
+        width: 80%;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .item{
+        display: flex;
+        flex: 0 0 0%;
+        padding: 15px;
+    }
+
+    .item img{
+        width: 197px;
+        height: 197px;
+        margin-bottom: 25px;
+    }
+  }
+
+  @media screen and (max-width: 550px){
+    #Items{
+        margin-top: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .title{
+        width: 80%;
+    }
+    
+    .contain{
+        gap: 20px;
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .item img{
+        width: 180px;
+        height: 180px;
+    }
+  }
+
+  @media screen and (max-width: 360px){
+    #Items{
+        margin-top: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .title{
+        width: 80%;
+    }
+    
+    .contain{
+        gap: 20px;
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .item img{
+        width: 225px;
+        height: 225px;
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    main{
+        margin-bottom: 30px;
+        font-size: 19px;
+    }
+    
+    /* About Us */
+    .about{
+        max-width: 80%;
+        height: fit-content;
+        margin-bottom: 30px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        display: flex;
+    }
+    
+    .text{
+        max-width: 100%;
+        height: fit-content;
+        padding: 0%;
+        margin-bottom: 5%;
+    }
+
+    .text{
+        max-width: 50%;
+        height: fit-content;
+        margin-left: 0%;
+    }
+    
+    .text h3{
+        font-size: 25px;
+    }
+    
+    .photo{
+        max-width: 48%;
+        height: fit-content;
+        margin-right: 0%;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 850px) {
+    main{
+        max-width: 100%;
+        height: fit-content;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    
+    /* About Us */
+    .about{
+        max-width: 75%;
+        height: fit-content;
+        margin-bottom: 30px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        text-align: justify;
+        display: grid;
+    }
+    
+    .text{
+        max-width: 100%;
+        height: fit-content;
+        padding: 0%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    .text h3{
+        font-size: 25px;
+    }
+    
+    .photo{
+        max-width: 100%;
+        height: fit-content;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .photo img{
+        max-width: 70%;
+        height: auto;
+    }
+
+    /* Member */
+    .member{
+        max-width: 90%;
+        height: fit-content;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 30px;
+        display: flex;
+    }
+    
+    .member p{
+        width: 82%;
+        height: fit-content;
+        margin-right: 3%;
+    }
+    
+    .member button{
+        width: 15%;
+        padding: 7px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+/* Mobile Phone */
+@media screen and (max-width: 550px) {
+    main{
+        max-width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    
+    .container{
+        background-color: rgb(186, 228, 252);
+        max-width: 100%;
+        height: fit-content;
+    }
+    
+    .about{
+        max-width: 85%;
+        height: fit-content;
+        margin-bottom: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: justify;
+        display: grid;
+    }
+    
+    .text{
+        max-width: 100%;
+        height: fit-content;
+        padding: 0%;
+        margin-bottom: 8%;
+    }
+
+    .text h3{
+        font-size: 20px;
+    }
+    
+    .photo{
+        max-width: 100%;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .photo img{
+        max-width: 90%;
+        height: auto;
+    }
+    
+    .member{
+        max-width: 90%;
+        height: fit-content;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        display: grid;
+    }
+    
+    .member p{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    
+    .member button{
+        width: 40%;
+        padding: 5px;
+        font-size: 15px;
+    }
+}
