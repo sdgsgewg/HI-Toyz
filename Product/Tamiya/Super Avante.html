@@ -5,51 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HI-Toyz</title>
+
+    <link rel="stylesheet" href="../../HeaderFooter/Header and Footer_CSS.css" />
+    <link rel="stylesheet" href="../toy.css" />
 </head>
 
-<link rel="stylesheet" href="/Header and Footer_CSS.css">
-<link rel="stylesheet" href="toy.css">
-
 <body>
-    <header>
-        <a href="/Home/Home_Page.html" class = "logo">
-            <img src="/logo.png" alt="">
-        </a>
-
-        <input type="checkbox" id="menu">
-        <label for="menu">
-            <img src="/menu bar.png" alt="">
-        </label>
-
-        <nav class = "navbar">
-            <ul>
-                <li><a href="/Home/Home_Page.html">Home</a></li>
-                <li><a href="/Gallery/Gallery_Page.html">Gallery</a></li>
-                <li><a href="/Product/Product_Page.html">Product</a></li>
-                <li><a href="/Event/Event_Page.html">Event</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="header-container"></div>
 
     <main>
 
         <div class = "overview">
             <div class="image">
-                <img src="Audi RS 6.png" alt="">
+                <img src="assets/super avante.png" alt="">
             </div>
             <div class = "infos">
-                <h2>
-                    MiniGT Audi RS 6 Avant Silver Digital Camouflage w/ Roof Box
-                </h2>
+                <h2>Racing Mini 4WD Series no.101</h2>
+                <h2>Super Avante Jr. (VZ)</h2>
                 <hr>
                 <div class = "rating">
-                    <img src="5 star.png" alt="">
+                    <img src="../assets/5 star.png" alt="">
                     <p>5 | 3 reviews</p>
                 </div>
                 
                 <hr>
                 <p>Stock: Ready</p>
-                <p>Rp 413.000</p>
+                <p>Rp 189.000</p>
                 <button>Buy now</button>
             </div>
         </div>
@@ -60,11 +41,27 @@
                 <h2>Description</h2>
                 <div class = "detail">
                     <p>
-                        Mini GT new, original, 1/64 scale, metal material 
-                        with plastic parts, good and quality stuff, very 
-                        suitable for toys, collections, or displays that 
-                        can be worth the investment.
+                        This assembly kit creates the Super Avante Jr., 
+                        a shaft-driven Mini 4WD car with its own body 
+                        based on the 1/10 scale Super Avante R/C model's; 
+                        both have been designed by Mr. Kota Nezu of znug design. 
+                        There is plenty to catch the eye, from depictions of 
+                        the independent fenders to a molded image of the R/C 
+                        model's inboard suspension. Canopy and nose window parts 
+                        can be removed to give the model a vastly different look. 
+                        The Super Avante Jr. is based upon the VZ chassis, using 
+                        yellow 12-spoke wheels and low-profile tires, while markings 
+                        are taken care of by the included metallic stickers.
                     </p>
+                    <br>
+                    <p>Product Details:</p>
+                    <ul>
+                        <li>Length: 158mm</li>
+                        <li>Width: 98mm</li>
+                        <li>Height: 38mm</li>
+                        <li>Includes motor</li>
+                        <li>Easy snap-together assembly</li>
+                    </ul>
                 </div>
                 
             </div>
@@ -77,9 +74,9 @@
 
                 <div class = "box">
                     <div class = "informations">
-                        <img class = "customer" src="male icon.png" alt="">
+                        <img class = "customer" src="../assets/male icon.png" alt="">
                         <br>
-                        <img class = "ratings" src="5 star.png" alt="">
+                        <img class = "ratings" src="../assets/5 star.png" alt="">
                         <p>Nicholas Clauss</p>
                         <p>19 April 2023</p>
                     </div>
@@ -96,9 +93,9 @@
 
                 <div class = "box">
                     <div class = "informations">
-                        <img class = "customer" src="female icon.png" alt="">
+                        <img class = "customer" src="../assets/female icon.png" alt="">
                         <br>
-                        <img class = "ratings" src="5 star.png" alt="">
+                        <img class = "ratings" src="../assets/5 star.png" alt="">
                         <p>Nicole Sarasvati</p>
                         <p>11 April 2023</p>
                     </div>
@@ -115,9 +112,9 @@
 
                 <div class = "box">
                     <div class = "informations">
-                        <img class = "customer" src="male icon.png" alt="">
+                        <img class = "customer" src="../assets/male icon.png" alt="">
                         <br>
-                        <img class = "ratings" src="5 star.png" alt="">
+                        <img class = "ratings" src="../assets/5 star.png" alt="">
                         <p>TAA</p>
                         <p>9 April 2023</p>
                     </div>
@@ -138,49 +135,15 @@
 
     </main>
 
-    <footer class = "footer">
-        <div class = "Container">
+    <div id="footer-container"></div>
 
-            <div class = "store">
-                <h2>Our Store</h2>
-                <div class = "personal">
-                    <img src="/location.png" alt="">
-                    <p>
-                        Jl. Lingkar Barat Ruko Victoria
-                        Lane No. 12
-                    </p>    
-                </div>
-                <p>Business Hours : </p>
-                <p>Mon-Fri (10am-10pm)</p>
-                <p>Sat-Sun (10am-11pm)</p>
-            </div>
+    <script>
+        const BASE_URL = "../../HeaderFooter/";
+        const G_URL = "../../Gallery";
+        const E_URL = "../../Event";
+        const P_URL = "../../Product";
+      </script>
 
-            <div class = "contact">
-                <h2>Contact Us</h2>
-
-                <div class = "personal">
-                    <img src="/email.png" alt="">
-                    <p>hi.toyz@gmail.com</p>
-                </div>
-                
-                <div class = "personal">
-                    <img src="/whatsapp.png" alt="">
-                    <p>+6281234567890</p>
-                </div>
-                
-            </div>
-            
-        </div>
-
-        <div class = "follow">
-            <h2>Follow Us</h2>
-            <img src="/facebook.png" alt="">
-            <img src="/instagram.png" alt="">
-            <img src="/tiktok.png" alt="">
-            <img src="/youtube.png" alt="">
-            <img src="/twitter.png" alt="">
-        </div>
-
-    </footer>
+    <script src="../../HeaderFooter/headerFooter.js" defer></script>
 </body>
 </html>

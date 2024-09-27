@@ -9,7 +9,7 @@ main{
     max-width: auto;
     height: fit-content;
     text-align: justify;
-    background-image: url(proact.jpg);
+    background-image: url(assets/proact.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;

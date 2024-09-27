@@ -16,7 +16,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(wallpaper.jpg);
+    background-image: url(assets/wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0%;

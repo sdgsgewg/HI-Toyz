@@ -21,7 +21,7 @@ main{
 
 /* About Us */
 #abt{
-    background-image: url(about.jpg);
+    background-image: url(assets/about.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
@@ -59,7 +59,7 @@ main{
 
 /* In Demand Items */
 #Items{
-    background-image: url(Items.jpg);
+    background-image: url(assets/Items.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: hard-light;

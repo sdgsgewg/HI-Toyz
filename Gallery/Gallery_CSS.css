@@ -8,7 +8,7 @@
 main{
     width: auto;
     font-size: 25px;
-    background-image: url(gallery.jpg);
+    background-image: url(assets/gallery.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
