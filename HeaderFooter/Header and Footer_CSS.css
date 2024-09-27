@@ -24,14 +24,14 @@ header{
     font-weight: bolder;
 }
 
-header .logo{
+header #logo{
     width: 150px;
     height: fit-content;
     margin-left: 0%;
     text-decoration: none;
 }
 
-header .logo img{
+header #logo img{
     width: 100%;
     height: auto;
     text-decoration: none;

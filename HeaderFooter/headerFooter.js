@@ -8,7 +8,10 @@ function loadHeader() {
             document.getElementById('logo-img').src = BASE_URL + 'assets/logo.png';
             document.getElementById('menu-img').src = BASE_URL + 'assets/menu bar.png';
 
-            document.getElementById('url-home').href = H_URL + '/Home_Page.html';
+            document.querySelectorAll('.url-home').forEach(function(element) {
+                element.href = H_URL + '/Home_Page.html';
+            });
+            
             document.getElementById('url-gallery').href = G_URL + '/Gallery_Page.html';
             document.getElementById('url-product').href = P_URL + '/Product_Page.html';
             document.getElementById('url-event').href = E_URL + '/Event_Page.html';
